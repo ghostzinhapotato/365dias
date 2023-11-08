@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>i love u</title> 
+    <link rel="stylesheet" type="text/css" href="bnt.css">
+    
+    <script> 
+        function redirecionar(resposta) {
+            if (resposta === 'sim!') {
+                window.location.href = 'https://drive.google.com/file/d/1XHydfvZDCoNrVMjlakFgpTcK_AaQr2E1/view?usp=drivesdk';
+ 
+            }
+        }
+
+        function mostrarAviso() {
+            var caixaAviso = document.getElementById("caixa-aviso");
+            caixaAviso.style.display = "block";
+        }
+
+        function fecharAviso() {
+            var caixaAviso = document.getElementById("caixa-aviso");
+            caixaAviso.style.display = "none";
+        }
+    </script> 
+</head> 
+
+<body class="body"> 
+   <div class="fundotodo">
+        <h1>365 DIAS!!</h1> 
+        <img src="aa.png">
+        <div class="caixa-botao">
+            <button class="botao-verificar" onclick="redirecionar('sim!')">EU TE AMO!!</button>
+        </div>
+    </div>
+</body> 
+</html>
